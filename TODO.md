@@ -1,0 +1,2 @@
+# TODO
+- [ ] emacs magit usage

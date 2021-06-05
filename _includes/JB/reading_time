@@ -1,0 +1,11 @@
+{% comment%}<!--
+reference, https://www.cnblogs.com/egoechog/p/estimate_reading_time_on_github_blog.html 
+-->{% endcomment%}
+
+{% if post %}
+<!--The Jekyll filter `number_of_words` doesn't parse Chinese correctly, use a workaround
+// figured in https://github.com/jekyll/jekyll/issues/1921 -->
+  {% assign read_time = post.content | strip_html | strip_newlines | split: "" | size | divided_by: 400 %}
+{% else %}
+  {% assign read_time = page.content | strip_html | strip_newlines | split: "" | size | divided_by: 400 %}
+{% endif %}

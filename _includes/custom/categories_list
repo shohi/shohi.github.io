@@ -1,0 +1,29 @@
+{% if categories_list.first[0] == null %}
+  <div id='tag_cloud'>
+  {% for category in categories_list %} 
+    <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category }}-ref" rel="{{ site.categories[category].size }}">
+    		{{ category | join: "/" }} 
+    </a>
+  {% endfor %}
+  </div>
+{% else %}
+  <div id='tag_cloud'>
+  {% for category in categories_list %} 
+     <a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref" rel="{{ category[1].size }}">
+    		{{ category[0] | join: "/" }}
+     </a>
+  {% endfor %}
+  </div>
+{% endif %}
+
+<ul class="listing">
+{% for category in site.categories %} 
+  <li class="listing-seperator" id="{{ category[0] }}-ref">{{ category[0] }}</li>
+  {% for post in category[1] %}
+  <li class="listing-item">
+  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+{% endfor %}
+</ul>
