@@ -11,7 +11,6 @@ kramdown:
 # markdown: redcarpet
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
-#
 title : Shohi -- Imagine & Possibility
 tagline: Site Tagline
 author :
@@ -118,7 +117,7 @@ JB :
   # Set 'provider' to false to turn analytics off globally.
   #
   analytics :
-    provider : google
+    provider : false
     google :
         tracking_id : 'UA-123-12'
     getclicky :

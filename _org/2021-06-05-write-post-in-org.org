@@ -1,0 +1,72 @@
+#+OPTIONS: toc:nil num:nil
+#+BEGIN_EXPORT html
+---
+layout: post
+title: "Blogging with Orgmode and GitHub Pages"
+tags: [emacs]
+uuid: 4f1f640d-4d1a-4d7a-bc5e-fc016ae9a13b
+---
+{% include JB/setup %}
+
+#+END_EXPORT
+
+** Configure Org html Export
+
+add following setting to emacs init file and redefine ~org-html-src-block~ to transcode source
+to ~rouge~ code block for jekyll highlighting.
+
+#+begin_src elisp
+(setq org-html-htmlize-output-type 'nil)
+
+(setq org-publish-project-alist
+      '(("gh-pages"
+	 :base-directory "/path/to/your/org/files/folder"
+         :base-extension "org"
+
+         ;; Path to your Jekyll project.
+         :publishing-directory "/path/to/your/gh-pages/_post"
+         :recursive t
+         :publishing-function org-publish-org-to-html
+         :headline-levels 4
+         :html-extension "html"
+         :body-only t ;; Only export section between body
+	 )))
+
+(defun org-html-src-block-jekyll (src-block contents info)
+  "Transcode a SRC-BLOCK element from Org to Jekyll highlight block.
+CONTENTS holds the contents of the item.  INFO is a plist holding
+contextual information."
+  (if (org-export-read-attribute :attr_html src-block :textarea)
+      (org-html--textarea-block src-block)
+    (let ((lang (or (org-element-property :language src-block) ""))
+          (code (org-html-format-code src-block info))
+          (label (let ((lbl (and (org-element-property :name src-block)
+                                 (org-export-get-reference src-block info))))
+                   (if lbl (format " id=\"%s\"" lbl) ""))))
+      ;; Build Rouge highlight code block
+      ;; NOTE: here use concat instead format to avoid syntax error for rouge processing, while
+      ;; in init.el using `format' is enough.
+      (concat "{\% "
+	      "highlight "
+	      lang
+	      " \%}\n"
+	      code
+	      "{\% "
+	      "endhighlight"
+	      "\%}\n"))))
+
+(advice-add 'org-html-src-block :override 'org-html-src-block-jekyll)
+
+#+end_src
+
+** Export to Jekyll html
+
+export org file to html using command =C-c C-e P f= or =org-publish-current-file=.
+Or use ~C-u~ prefix to publish forcedlly even the content is unmodified.
+
+** Reference
+
+1. https://carl.ac/blogging-with-emacs-org-github-pages/
+2. https://thackl.github.io/blogging-with-emacs-org-mode-and-jekyll
+3. https://orgmode.org/worg/org-tutorials/org-jekyll.html
+4. https://github.com/PhilipTrauner/pygments-github-css
