@@ -24,8 +24,9 @@ group: navigation
 [Protesilaos Stavrou](https://protesilaos.com/)<br/>
 [Stepan Parunashvili](https://stopa.io/)<br/>
 [Robin Schroer(sulami)](https://blog.sulami.xyz/)<br/>
-[Ali Abdaal](https://www.youtube.com/c/aliabdaal/about)<br/>
+[Ali Abdaal](https://www.com/c/aliabdaal/about)<br/>
 [Yossi Kreinin](https://yosefk.com/blog/)<br/>
+[Phil Newton](https://www.philnewton.net/)<br/>
 
 ## Tool
 [Anki](https://apps.ankiweb.net) <br/>
