@@ -27,6 +27,7 @@ group: navigation
 [Ali Abdaal](https://www.com/c/aliabdaal/about)<br/>
 [Yossi Kreinin](https://yosefk.com/blog/)<br/>
 [Phil Newton](https://www.philnewton.net/)<br/>
+[Protesilaos Stavrou](https://protesilaos.com/)<br/>
 
 ## Tool
 [Anki](https://apps.ankiweb.net) <br/>
