@@ -3,6 +3,18 @@
 Personal blog site inspired by [[https://github.com/Eason0210][Eason0210]]
 powered by [[https://github.com/gohugoio/hugo][Hugo]].
 
+** Development
+
+#+begin_src bash
+git clone https://github.com/shohi/shohi.github.io
+
+# launch hugo
+cd shohi.github.io
+hugo serve -D
+
+#+end_src
+
+
 ** Links
 
 1. [[https://github.com/Eason0210/eason0210.github.io]]
