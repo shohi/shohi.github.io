@@ -1,0 +1,10 @@
+#+title: About
+#+date: 2021:10:16
+#+draft: false
+
+[[/img/bugs_bunny/bugs_bunny_and_elmer_fudd.jpg]]
+
+
+#+begin_quote
+/Ehh, What's up, Doc?/
+#+end_quote

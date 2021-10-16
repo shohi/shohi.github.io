@@ -1,0 +1,9 @@
+* README
+
+Personal blog site inspired by [[https://github.com/Eason0210][Eason0210]]
+powered by [[https://github.com/gohugoio/hugo][Hugo]].
+
+** Links
+
+1. [[https://github.com/Eason0210/eason0210.github.io]]
+2. [[https://github.com/EmacsTalk/emacstalk.github.io/]]
