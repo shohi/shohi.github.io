@@ -50,8 +50,13 @@ copyright = ""            # default: author.name
   identifier = "categories"
   url = "/categories/"
 [[menu.main]]
-  name = "About"
+  name = "Link"
   weight = 50
+  identifier = "link"
+  url = "/link/"
+[[menu.main]]
+  name = "About"
+  weight = 60
   identifier = "about"
   url = "/about/"
 
@@ -71,6 +76,7 @@ copyright = ""            # default: author.name
 
   # site info (optional)
   logoTitle = "Imagine & Possibility"        # default: the title value
+  # logoTitle = "Mindful"
   keywords = ["Hugo", "theme","even"]
   description = "Shohi Wang's personal blog site."
 

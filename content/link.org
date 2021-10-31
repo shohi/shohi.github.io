@@ -1,0 +1,42 @@
+#+title: Links
+#+date: <2021-10-31 Sun 08:07>
+#+draft: false
+
+** Blog
+- [[https://protesilaos.com/][Protesilaos Stavrou]]
+- [[https://aliabdaal.com/][Ali Abdaal]]
+- [[http://www.changhai.org/index.php][卢昌海]]
+- [[http://www.ruanyifeng.com/home.html][阮一峰]]
+- [[http://zenhabits.net/][ZenHabits]]
+- [[https://www.perell.com/][David Perell]]
+- [[http://www.paulgraham.com/][Paul Graham]]
+- [[http://www.scotthyoung.com/][Scott Young]]
+- [[http://mrjamie.cc/][MR JAMIE]]
+- [[http://matrix67.com/][Matrix67]]
+- [[http://www.positivepsychology.org/][Positive psychology]]
+- [[http://tommyton.tumblr.com/][TOMMY TON]]
+- [[http://www.thesartorialist.com/][The Sartorialist]]
+- [[https://www.cnfeat.com/][笨方法学写作]]
+- [[https://seekbetter.me][寻我]]
+- [[https://manateelazycat.github.io/index.html][manateelazycat]]
+- [[https://stopa.io/][Stepan Parunashvili]]
+- [[https://blog.sulami.xyz/][Robin Schroer(sulami)]]
+- [[https://yosefk.com/blog/][Yossi Kreinin]]
+- [[https://www.philnewton.net/][Phil Newton]]
+
+** Tool
+- [[https://apps.ankiweb.net][Anki]]
+- [[http://www.goodreads.com/][Goodreads]]
+- [[http://www.whatshouldireadnext.com/][What Should I Read Next?]]
+- [[https://www.deviantart.com/][DeviantArt]]
+- [[https://500px.com/editors][500px]]
+
+** Medium
+- [[https://lobste.rs][lobste.rs]]
+- [[https://news.ycombinator.com/][Hacker News]]
+- [[https://wanqu.co/][湾区日报]]
+- [[http://book.douban.com][豆瓣]]
+- [[https://medium.com/][Medium]]
+- [[http://www.jianshu.com][简书]]
+- [[http://yixi.tv/][一席]]
+- [[http://www.mafengwo.cn/][马蜂窝]]
