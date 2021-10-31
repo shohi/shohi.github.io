@@ -2,8 +2,11 @@
 #+date: 2021:10:16
 #+draft: false
 
+** Hidden :noexport:
+
 [[/images/bugs_bunny/bugs_bunny_and_elmer_fudd.jpg]]
 
+** About
 
 #+begin_quote
 /Ehh, What's up, Doc?/

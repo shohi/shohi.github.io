@@ -75,8 +75,8 @@ copyright = ""            # default: author.name
   gitRepo = "https://github.com/shohi/shohi.github.io"
 
   # site info (optional)
-  logoTitle = "Imagine & Possibility"        # default: the title value
-  # logoTitle = "Mindful"
+  # logoTitle = "Imagine & Possibility"        # default: the title value
+  logoTitle = "Mindfulness"
   keywords = ["Hugo", "theme","even"]
   description = "Shohi Wang's personal blog site."
 
