@@ -23,6 +23,7 @@
 - [[https://blog.sulami.xyz/][Robin Schroer(sulami)]]
 - [[https://yosefk.com/blog/][Yossi Kreinin]]
 - [[https://www.philnewton.net/][Phil Newton]]
+- [[https://www.collaborativefund.com/blog/][Collaborative Fund]]
 
 ** Tool
 - [[https://apps.ankiweb.net][Anki]]
